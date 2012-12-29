@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gold Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="titleServiceStart">Start Service</string>
+    <string name="titleServiceStop">Stop Service</string>
+    <string name="titlePrefs">Preference</string>
+    
+    
+  <string name="titleUsername">Username</string>
+  <string name="titlePassword">Password</string>
+  <string name="titleApiRoot">API Root</string>
+  <string name="titleFrequent">Updater Interval</string>
+  
+  <string name="summaryUsername">Please enter your username</string>
+  <string name="summaryPassword">Please enter your password</string>
+  <string name="summaryApiRoot">URL of Root API for your service</string>
+  <string name="summaryFrequent">How often should Updater services run?</string>
+    
+    
+  <string name="msgLastTimelineUpdate">My Gold Widget</string>
+  
+  <string-array name="interval">
+    <item>Never</item>
+    <item>Fifteen minutes</item>
+    <item>Half hour</item>
+    <item>An hour</item>
+    <item>Half day</item>
+    <item>Day</item>
+  </string-array>
+
+  <string-array name="intervalValues">
+    <item>0</item>
+    <item>90000</item>
+    <item>1800000</item>
+    <item>3600000</item>
+    <item>43200000</item>
+    <item>86400000</item>
+  </string-array>
+  
+  
+    
+    <string name="send_timeline_notifications_permission_label">Sends Timeline Notifications</string>
+    <string name="send_timeline_notifications_permission_description">Allow this application to send timeline
+    notifications to other applications</string>
+    <string name="receive_timeline_notifications_permission_label">Receive Timeline Notifications</string>
+    <string name="receive_timeline_notifications_permission_description">Allow this application to receive timeline
+    notifications from other applications</string>
+
+</resources>
